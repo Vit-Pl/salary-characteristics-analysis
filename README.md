@@ -16,6 +16,8 @@
 
 Проект выполнен в **Google Colab**.
 
+> ⚠️ **Примечание по запуску:** Блокнот написан для Google Colab. В коде используется путь к датасету `/content/Salary_Data.csv`. При запуске в другом окружении путь нужно скорректировать на `data/raw/Salary_Data.csv`.
+
 ---
 
 ## 🔗 Полезные ссылки
@@ -26,7 +28,7 @@
 | Google Drive с файлами | [Папка проекта](https://drive.google.com/drive/folders/18CYYIFbqPreav9VvOkn8dvvqXeVA1k8V) |
 | Google Colab с анализом | [Открыть в Colab](https://colab.research.google.com/drive/19LvU0cC3sUhzWyVyXVxO2oYNuhcZLJFRX) |
 | Дашборд в Yandex DataLens | [Смотреть дашборд](https://datalens.ru/fs244cywbsjc0-zavisimosti-zarplat) |
-
+| Ссылка на Kaggle (оригинал) | [Salary Data](https://www.kaggle.com/datasets/ayeshasiddiqa123/salary-data/data?select=Salary_Data.csv) — *может не работать* |
 ---
 
 ## 📊 Описание датасета
@@ -139,13 +141,13 @@ salary-characteristics-analysis/
 ├── requirements.txt
 │
 ├── data/
-│   ├── raw/
-│   │   └── Salary_Data.csv          # Исходный датасет
-│   └── processed/
-│       └── processed_salary_data.csv # Обработанные данные
+│ ├── raw/
+│ │ └── Salary_Data.csv # Исходный датасет
+│ └── processed/
+│ └── processed_salary_data.csv # Обработанные данные
 │
 └── docs/
-    └── salary_analysis_report.docx   # Итоговый отчёт
+└── salary_analysis_report.docx # Итоговый отчёт
 
 ---
 
