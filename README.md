@@ -134,16 +134,18 @@
 ## 📁 Структура проекта
 salary-characteristics-analysis/
 │
-├── README.md # Описание проекта
-├── salary_analysis.ipynb # Основной код (Google Colab / Jupyter)
-├── requirements.txt # Зависимости Python
+├── README.md
+├── salary_analysis.ipynb
+├── requirements.txt
 │
 ├── data/
-│ └── processed/
-│ └── processed_salary_data.csv # Обработанные данные
+│   ├── raw/
+│   │   └── Salary_Data.csv          # Исходный датасет
+│   └── processed/
+│       └── processed_salary_data.csv # Обработанные данные
 │
 └── docs/
-└── salary_analysis_report.docx # Итоговый отчёт
+    └── salary_analysis_report.docx   # Итоговый отчёт
 
 ---
 
