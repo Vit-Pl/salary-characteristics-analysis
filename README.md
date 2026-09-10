@@ -134,6 +134,8 @@
 ---
 
 ## 📁 Структура проекта
+
+```text
 salary-characteristics-analysis/
 │
 ├── README.md
@@ -141,13 +143,14 @@ salary-characteristics-analysis/
 ├── requirements.txt
 │
 ├── data/
-│ ├── raw/
-│ │ └── Salary_Data.csv # Исходный датасет
-│ └── processed/
-│ └── processed_salary_data.csv # Обработанные данные
+│   ├── raw/
+│   │   └── Salary_Data.csv              # Исходный датасет
+│   └── processed/
+│       └── processed_salary_data.csv    # Обработанные данные
 │
 └── docs/
-└── salary_analysis_report.docx # Итоговый отчёт
+    └── salary_analysis_report.docx      # Итоговый отчёт
+```
 
 ---
 
