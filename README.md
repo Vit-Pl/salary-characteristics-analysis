@@ -22,7 +22,7 @@
 
 | Ресурс | Ссылка |
 |--------|--------|
-| Исходный датасет (Kaggle) | [Salary Data](https://www.kaggle.com/datasets/ayeshasiddiqa123/salary-data/data?select=Salary_Data.csv) |
+| Исходный датасет | Приложен к репозиторию: `data/raw/Salary_Data.csv` |
 | Google Drive с файлами | [Папка проекта](https://drive.google.com/drive/folders/18CYYIFbqPreav9VvOkn8dvvqXeVA1k8V) |
 | Google Colab с анализом | [Открыть в Colab](https://colab.research.google.com/drive/19LvU0cC3sUhzWyVyXVxO2oYNuhcZLJFRX) |
 | Дашборд в Yandex DataLens | [Смотреть дашборд](https://datalens.ru/fs244cywbsjc0-zavisimosti-zarplat) |
